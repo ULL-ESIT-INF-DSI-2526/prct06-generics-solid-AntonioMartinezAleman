@@ -5,4 +5,7 @@ describe("suma", () => {
   it("debería sumar dos números", () => {
     expect(suma(2, 3)).toBe(5);
   });
+  it("debería sumar tres números", () => {
+    expect(suma(2, 3)).toBe(5);
+  });
 });
