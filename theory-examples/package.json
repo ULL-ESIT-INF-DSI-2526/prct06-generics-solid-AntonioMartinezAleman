@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
-    "doc": "typedoc"
+    "doc": "typedoc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +15,7 @@
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.18.0",
+    "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-tsdoc": "^0.4.0",
