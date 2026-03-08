@@ -1,0 +1,25 @@
+{
+  "name": "theory-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "doc": "typedoc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-tsdoc": "^0.4.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "tsc-watch": "^6.2.1",
+    "typedoc": "^0.27.6",
+    "typescript-eslint": "^8.21.0",
+    "vitest": "^4.0.18"
+  }
+}
